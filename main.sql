@@ -19,6 +19,10 @@ INSERT INTO Talabalar VALUES (1, 'Ali', 3.5);
 INSERT INTO Talabalar VALUES (2, 'Vali', 3.8);
 INSERT INTO Talabalar VALUES (3, 'Hasan', 3.2);
 
+INSERT INTO Mahsulotlar VALUES ('Telefon', 1200.5);
+INSERT INTO Mahsulotlar VALUES ('Noutbuk', 850.0);
+INSERT INTO Mahsulotlar VALUES ('Planshet', 430.9);
+
 SELECT * FROM Mahsulotlar;
 
 SELECT nom, narx FROM Mahsulotlar;
